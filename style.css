@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.alphacoders.com/959/thumb-1920-959309.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#navbar{
+    background-color: rgb(127, 161, 255);
+    background-attachment: fixed;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+
+
+}
+nav{
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 60px;
+   
+}
+.home{
+    color: black;
+    font-weight: 600;
+    font-family: serif;
+    text-decoration: none;
+    margin-right: 60px;
+    align-items: center;
+}
+.home:hover{
+    color: white;
+
+}
+
+
+@media (max-width: 600px){
+    .navbar{
+        align-items: center;
+        
+    }
+    .home{
+        text-align: center;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* section 1........... */
+
+#about{ 
+    margin-top: 100px
+}
+.intro{
+    margin-left: 200px;
+}
+.hai{
+    font-size: 100px;
+    font-weight: 600;
+    font-family: a;
+    font-style: italic;
+}
+.h3hai{
+    font-style: italic;
+    margin-left: 100px;
+}
+h1{
+   text-align: center;
+   padding: 100px;   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+table{
+    height: 60vh;
+    margin-top: 50px;
+    max-width: 50%;
+    margin-left: 25%;
+    border: solid;
+    font-weight: 600;
+}
+tbody{
+    margin-top: 20px;
+}
+td{
+    font-size: 20px;
+}
+.thh{
+    font-size: 20px;
+   text-align: center;
+}
+tr{
+   margin-left: 50px;
+   text-align: center;
+}
+/* images......... */
+.pic{
+    width: 300px;
+    height: 370px;
+    margin: 20px;
+    border-radius:10px ;
+    margin-bottom: 100px;
+    margin-left: 125px;
+}
+.mainimg{
+    cursor: pointer;
+    
+}
+.pic:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease ;
+}
+
+/* interests.......... */
+.interests{
+    margin: 10%;
+    margin-top: -10px;
+}
+.hobby{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 500px;
+}
+#int{
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+}
+
+/* arts.......... */
+.arts{
+    width: 350px;
+    height: 400px;
+    margin-left: 50px;
+}
+/* contacts......... */
+.icons{
+    margin-left: 830px;
+    
+}
+.link{
+      margin-right:30px;
+      font-size: 30px;
+
+      background: none;
+      border: solid;
+      border: 40px;
+      margin-right: 20px;
+}
+.link:hover{
+    background-image: linear-gradient(to bottom right,rgb(230, 0, 255),rgb(24, 30, 188),rgb(0, 0, 0));
+    padding: 10px;
+    border-radius: 30px;
+    transform: scale(1.3);
+    transition: transform 0.3s ease ;
+}
+p{
+    text-align: center;
+}
+#pf{
+    margin-top: 100px;
+
+}
+.up{
+    float: right;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-top: -70px;
+}
+.up:hover{
+    background-image: linear-gradient(to bottom right,rgb(230, 0, 255),rgb(24, 30, 188),rgb(0, 0, 0));
+    padding: 10px;
+    border-radius: 100px;
+    transform: scale(1.3);
+    transition: transform 0.3s ease ;
+}
+
+html{
+    scroll-behavior: smooth;
+}
